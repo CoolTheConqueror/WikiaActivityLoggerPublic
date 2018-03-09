@@ -1,0 +1,61 @@
+{
+    "name": "wikia-activity-logger",
+    "version": "1.5.9",
+    "description": "Logs activity of a Wikia wiki through different transports",
+    "keywords": [
+        "wikia",
+        "logger",
+        "discord",
+        "slack"
+    ],
+    "homepage": "http://dev.wikia.com/wiki/WikiaActivityLogger",
+    "license": "CC-BY-SA-4.0",
+    "author": {
+        "name": "KockaAdmiralac",
+        "email": "1405223@gmail.com",
+        "url": "https://github.com/KockaAdmiralac"
+    },
+    "contributors": [
+        {
+            "name": "Unai Mengual",
+            "url": "https://unai01.github.io"
+        },
+        {
+            "name": "Mamvik",
+            "url": "http://c.wikia.com/wiki/User:Mamvik"
+        },
+        {
+            "name": "Dark Yada",
+            "url": "http://c.wikia.com/wiki/User:Dark_Yada"
+        },
+        {
+            "name": "Mix Gerder",
+            "url": "http://c.wikia.com/wiki/User:Mix_Gerder"
+        },
+        {
+            "name": "Ava Caughdough",
+            "url": "http://dabpenguin.com"
+        },
+        {
+            "name": "Nozomi",
+            "url": "http://c.wikia.com/wiki/User:ElNobDeTfm"
+        }
+    ],
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KockaAdmiralac/WikiaActivityLogger.git"
+    },
+    "dependencies": {
+        "node-notifier": "^5.1.2",
+        "opn": "^5.1.0",
+        "request": "^2.34",
+        "request-promise-native": ">=1.0.0"
+    },
+    "engines": {
+        "node": ">=0.12.0"
+    }
+}
