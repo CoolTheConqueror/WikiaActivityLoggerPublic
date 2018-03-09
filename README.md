@@ -15,4 +15,4 @@ Documentation can be found [here](http://dev.wikia.com/wiki/WikiaActivityLogger)
 - If the thread gets moved the logger still shows the old board (Wikia y u do dis to me ;-;)
 - `aflpermissionerror` error?
 - Weird issue with message type not being passed when ratelimited
-- Thread title characters are HTML entities sometimes
+- Thread title characters are HTML entities sometimes"# WikiaActivityLoggerPublic" 
